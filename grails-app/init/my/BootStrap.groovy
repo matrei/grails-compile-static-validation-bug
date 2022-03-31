@@ -1,4 +1,4 @@
-package grails.compile.static.validation
+package my
 
 class BootStrap {
 

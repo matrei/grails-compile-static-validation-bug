@@ -11,7 +11,7 @@ buildscript {
 }
 
 version "0.1"
-group "grails.compile.static.validation"
+group "my"
 
 apply plugin:"eclipse"
 apply plugin:"idea"

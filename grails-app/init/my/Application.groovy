@@ -1,4 +1,4 @@
-package grails.compile.static.validation
+package my
 
 import grails.boot.GrailsApp
 import grails.boot.config.GrailsAutoConfiguration
