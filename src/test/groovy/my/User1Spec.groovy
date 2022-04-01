@@ -8,7 +8,8 @@ class User1Spec extends Specification implements DomainUnitTest<User1> {
     void '#field is validated correctly for value #value'() {
 
         given: 'a user with a value set for a field'
-        def user1 = new User1((field): value)
+        def user1 = new User1()
+        user1[field] = value
 
         when: 'validating that field'
         def validationResult = user1.validate([field])
